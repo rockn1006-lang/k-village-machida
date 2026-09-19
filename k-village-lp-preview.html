@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>K Village 韓国語 町田校｜無料体験レッスン受付中</title>
+<meta name="description" content="町田で韓国語をはじめるなら K Village 韓国語 町田校。ハングルが読めない方も、独学が続かなかった方も大丈夫。K-POPや韓国ドラマ、韓国旅行がもっと楽しくなる韓国語を、初心者向けの会話レッスンで身につけましょう。まずは無料体験レッスンへ。">
+
+<!-- OGP -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="K Village 韓国語 町田校｜無料体験レッスン受付中">
+<meta property="og:description" content="ハングルが読めなくても大丈夫。町田で通える韓国語教室、K Village 韓国語 町田校の無料体験レッスン受付中。">
+<meta property="og:site_name" content="K Village 韓国語 町田校">
+<!-- ここにOGP用の画像URLを設定（例：https://example.com/images/ogp.jpg） -->
+<meta property="og:image" content="images/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+<style>
+/* ==========================================================
+   K Village 韓国語 町田校 LP
+   デザイントークン
+   Color:
+     --color-bg        #FFFFFF  背景（白ベース）
+     --color-bg-soft    #FFF6F4  やわらかいピンクベージュ（セクション背景）
+     --color-bg-peach   #FFF1E6  淡いアプリコット（セクション背景アクセント）
+     --color-pink        #FF7A99  メインアクセント（CTA・強調）
+     --color-pink-deep  #E85C7F  ホバー時などの濃いピンク
+     --color-ink          #322A2E  本文・見出し用の温かみのある墨色
+     --color-ink-soft    #74666B  補足テキスト
+     --color-line          #F0DEE1  罫線・境界線
+   Type:
+     見出し／本文とも Zen Maru Gothic（丸ゴシックで親しみやすさを演出）
+     ワンポイントの韓国語ロゴ表記に Gowun Dodum
+   ========================================================== */
+
+:root {
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #FFF6F4;
+  --color-bg-peach: #FFF1E6;
+  --color-pink: #FF7A99;
+  --color-pink-deep: #E85C7F;
+  --color-pink-pale: #FFE3E9;
+  --color-ink: #322A2E;
+  --color-ink-soft: #74666B;
+  --color-line: #F0DEE1;
+
+  --font-base: 'Zen Maru Gothic', 'Hiragino Maru Gothic ProN', sans-serif;
+  --font-ko: 'Gowun Dodum', var(--font-base);
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 10px;
+
+  --shadow-soft: 0 12px 30px -14px rgba(232, 92, 127, 0.35);
+
+  --max-width: 480px;
+  --section-pad-y: 64px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --max-width: 720px;
+    --section-pad-y: 96px;
+  }
+}
+
+@media (min-width: 1100px) {
+  :root {
+    --max-width: 1040px;
+    --section-pad-y: 120px;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 76px; /* 固定CTAバー分の余白 */
+}
+
+@media (min-width: 1100px) {
+  body { padding-bottom: 0; }
+}
+
+img { max-width: 100%; display: block; }
+
+h1, h2, h3 { margin: 0; font-weight: 700; }
+
+p { margin: 0 0 1em; }
+p:last-child { margin-bottom: 0; }
+
+ul, ol { margin: 0; padding: 0; list-style: none; }
+
+a { color: inherit; }
+
+button { font-family: inherit; }
+
+.section {
+  padding: var(--section-pad-y) 24px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section__title {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0.9em;
+}
+
+.section__lead {
+  text-align: center;
+  color: var(--color-ink-soft);
+  max-width: 36em;
+  margin: 0 auto 2.2em;
+}
+
+.section__cta { text-align: center; margin-top: 2.4em; }
+
+@media (min-width: 1100px) {
+  .section__title { font-size: 2.1rem; }
+}
+
+/* ---------- ボタン ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.btn--primary {
+  background: var(--color-pink);
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.btn--primary:hover,
+.btn--primary:focus-visible {
+  background: var(--color-pink-deep);
+  transform: translateY(-2px);
+}
+
+.btn--primary:active { transform: translateY(0) scale(0.98); }
+
+.btn--large { padding: 18px 40px; font-size: 1.08rem; width: 100%; max-width: 360px; }
+
+.btn--small { padding: 10px 18px; font-size: 0.82rem; }
+
+.btn--block { width: 100%; max-width: none; }
+
+.btn:focus-visible {
+  outline: 3px solid var(--color-pink-deep);
+  outline-offset: 2px;
+}
+
+/* ---------- ヘッダー ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.site-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.logo { display: flex; flex-direction: column; text-decoration: none; line-height: 1.2; }
+
+.logo__ko {
+  font-family: var(--font-ko);
+  font-size: 0.7rem;
+  color: var(--color-pink-deep);
+  letter-spacing: 0.02em;
+}
+
+.logo__ja { font-weight: 700; font-size: 0.98rem; color: var(--color-ink); }
+.logo__ja em { font-style: normal; color: var(--color-pink); }
+
+.header-cta { white-space: nowrap; }
+
+@media (max-width: 420px) {
+  .header-cta { padding: 10px 14px; font-size: 0.74rem; }
+}
+
+/* ---------- ファーストビュー ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 56px;
+  background: linear-gradient(180deg, var(--color-pink-pale) 0%, var(--color-bg) 78%);
+}
+
+.hero__bg-type {
+  position: absolute;
+  top: -0.35em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-ko);
+  font-size: 22vw;
+  line-height: 1;
+  color: rgba(255, 122, 153, 0.14);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (min-width: 1100px) {
+  .hero__bg-type { font-size: 11rem; }
+}
+
+.hero__media {
+  position: relative;
+  margin: 0 auto;
+  max-width: 420px;
+  padding: 28px 24px 0;
+}
+
+.hero__photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-lg) var(--radius-lg) 120px var(--radius-lg);
+  box-shadow: 0 24px 40px -20px rgba(50, 42, 46, 0.35);
+  background: var(--color-bg-peach);
+}
+
+.hero__content {
+  position: relative;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 32px 28px 0;
+  text-align: center;
+}
+
+.hero__eyebrow {
+  color: var(--color-pink-deep);
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.8em;
+}
+
+.hero__headline {
+  font-size: 1.9rem;
+  line-height: 1.5;
+  margin-bottom: 0.7em;
+}
+
+.hero__lead {
+  color: var(--color-ink-soft);
+  font-size: 0.98rem;
+  margin-bottom: 1.8em;
+}
+
+.hero__cta { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+
+.hero__cta-note { font-size: 0.8rem; color: var(--color-ink-soft); margin: 0; }
+
+@media (min-width: 900px) {
+  .hero { padding-bottom: 80px; }
+  .hero__content { padding-top: 56px; }
+  .hero__headline { font-size: 2.8rem; }
+  .hero__lead { font-size: 1.1rem; }
+  .hero__media { max-width: 480px; }
+}
+
+/* ---------- 共感パート ---------- */
+.empathy { background: var(--color-bg); }
+
+.empathy__list {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 2em;
+}
+
+.empathy__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 20px;
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-md);
+}
+
+.empathy__mark {
+  font-family: var(--font-ko);
+  font-weight: 700;
+  color: var(--color-pink);
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  width: 1.4em;
+  text-align: center;
+}
+
+.empathy__item p { margin: 0; }
+
+.empathy__closer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .empathy__list { grid-template-columns: 1fr 1fr; }
+}
+
+/* ---------- 特徴 ---------- */
+.features { background: var(--color-bg-peach); border-radius: var(--radius-lg); }
+
+.features__grid {
+  display: grid;
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 26px 24px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+}
+
+.feature-card h3 { font-size: 1.08rem; margin-bottom: 0.6em; color: var(--color-pink-deep); }
+
+.feature-card p { color: var(--color-ink-soft); margin: 0; }
+
+@media (min-width: 768px) {
+  .features__grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ---------- おすすめの人 ---------- */
+.recommend__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.recommend-card {
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-md);
+  padding: 22px 14px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 768px) {
+  .recommend__grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* ---------- レッスンの流れ ---------- */
+.flow { display: grid; gap: 22px; }
+
+.flow__step {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding-bottom: 22px;
+  border-bottom: 1px dashed var(--color-line);
+}
+
+.flow__step:last-child { border-bottom: none; padding-bottom: 0; }
+
+.flow__num {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-pink);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.flow__step h3 { margin-bottom: 0.4em; font-size: 1.05rem; }
+.flow__step p { color: var(--color-ink-soft); margin: 0; }
+
+/* ---------- 料金 ---------- */
+.pricing__box {
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-lg);
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.pricing__placeholder {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-pink-deep);
+  margin-bottom: 0.6em;
+}
+
+.pricing__note { color: var(--color-ink-soft); font-size: 0.9rem; margin: 0; }
+
+/* ---------- 生徒の声 ---------- */
+.voices { background: var(--color-bg-peach); border-radius: var(--radius-lg); }
+
+.voices__grid { display: grid; gap: 20px; }
+
+.voice-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 24px;
+  text-align: center;
+}
+
+.voice-card__photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 16px;
+  background: var(--color-bg-soft);
+}
+
+.voice-card__photo img { width: 100%; height: 100%; object-fit: cover; }
+
+.voice-card__body { font-weight: 700; margin-bottom: 0.4em; }
+.voice-card__meta { color: var(--color-ink-soft); font-size: 0.85rem; }
+
+@media (min-width: 900px) {
+  .voices__grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------- 無料体験 ---------- */
+.trial {
+  text-align: center;
+}
+
+.trial__inner {
+  background: linear-gradient(160deg, var(--color-pink) 0%, var(--color-pink-deep) 100%);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: 48px 26px;
+}
+
+.trial .section__title { color: #fff; }
+
+.trial__text { max-width: 32em; margin: 0 auto 1.2em; }
+.trial__text--sub { opacity: 0.92; font-size: 0.92rem; }
+
+.trial .btn--primary {
+  background: #fff;
+  color: var(--color-pink-deep);
+  box-shadow: none;
+  margin-top: 1.4em;
+}
+
+.trial .btn--primary:hover { background: #FFF0F3; }
+
+/* ---------- アクセス ---------- */
+.access__grid { display: grid; gap: 24px; }
+
+.access__info dl { display: grid; grid-template-columns: auto 1fr; gap: 10px 16px; }
+.access__info dt { color: var(--color-ink-soft); font-size: 0.85rem; white-space: nowrap; }
+.access__info dd { margin: 0; font-weight: 700; }
+
+.access__map-placeholder {
+  aspect-ratio: 16 / 10;
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-ink-soft);
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .access__grid { grid-template-columns: 1fr 1.2fr; align-items: center; }
+}
+
+/* ---------- FAQ ---------- */
+.faq__list { display: grid; gap: 12px; }
+
+.faq-item {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #fff;
+}
+
+.faq-item__q {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 18px 48px 18px 20px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  position: relative;
+  cursor: pointer;
+  color: var(--color-ink);
+}
+
+.faq-item__q::after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid var(--color-pink-deep);
+  border-bottom: 2px solid var(--color-pink-deep);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.faq-item__q[aria-expanded="true"]::after {
+  transform: translateY(-30%) rotate(-135deg);
+}
+
+.faq-item__a {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.faq-item__a > p {
+  overflow: hidden;
+  padding: 0 20px;
+  color: var(--color-ink-soft);
+}
+
+.faq-item[data-open="true"] .faq-item__a { grid-template-rows: 1fr; }
+.faq-item[data-open="true"] .faq-item__a > p { padding: 0 20px 20px; }
+
+/* ---------- 申し込みフォーム ---------- */
+.apply { background: var(--color-bg-soft); border-radius: var(--radius-lg); }
+
+.apply-form { display: grid; gap: 18px; max-width: 480px; margin: 0 auto; }
+
+.form-row { display: grid; gap: 8px; }
+
+.form-row label {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.required {
+  color: var(--color-pink-deep);
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-left: 6px;
+  border: 1px solid var(--color-pink-deep);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-line);
+  font-family: inherit;
+  font-size: 1rem;
+  background: #fff;
+  color: var(--color-ink);
+}
+
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: var(--color-pink);
+  box-shadow: 0 0 0 3px var(--color-pink-pale);
+}
+
+.apply-form__submit { justify-self: center; margin-top: 8px; }
+
+.apply-form__status {
+  text-align: center;
+  font-weight: 700;
+  min-height: 1.4em;
+  color: var(--color-pink-deep);
+}
+
+/* ---------- フッター ---------- */
+.site-footer {
+  text-align: center;
+  padding: 40px 24px 100px;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+}
+
+@media (min-width: 1100px) {
+  .site-footer { padding-bottom: 40px; }
+}
+
+.site-footer__name { font-weight: 700; color: var(--color-ink); margin-bottom: 0.4em; }
+
+/* ---------- 固定CTAバー ---------- */
+.fixed-cta {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid var(--color-line);
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.fixed-cta.is-visible { transform: translateY(0); }
+
+@media (min-width: 1100px) {
+  .fixed-cta { display: none; }
+}
+
+/* ---------- スクロールリビール ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .btn, .faq-item__q::after, .fixed-cta { transition: none; }
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============ ヘッダー ============ -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="#top" class="logo">
+      <span class="logo__ko">케이빌리지</span>
+      <span class="logo__ja">K Village <em>町田校</em></span>
+    </a>
+    <a href="#form" class="btn btn--small btn--primary header-cta">無料体験に申し込む</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ SECTION 1：ファーストビュー ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-type" aria-hidden="true">안녕하세요</div>
+    <div class="hero__media">
+      <!-- ここに韓国語レッスンの写真（教室で楽しそうに話す生徒の様子など） -->
+      <img src="https://placehold.co/800x1000/FFE3E9/E85C7F?text=%EB%A0%88%EC%8A%A8+%EC%82%AC%EC%A7%84" alt="K Village 韓国語 町田校のレッスン風景" class="hero__photo" loading="eager">
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">町田駅から通える韓国語教室</p>
+      <h1 class="hero__headline">
+        その韓国語、<br>
+        ここから話せるようになる。
+      </h1>
+      <p class="hero__lead">
+        K-POP、韓国ドラマ、推し活、韓国旅行。<br>
+        「好き」を「話せる」に変える一歩を、町田で。
+      </p>
+      <div class="hero__cta">
+        <a href="#form" class="btn btn--primary btn--large">無料体験レッスンを申し込む</a>
+        <p class="hero__cta-note">初めての方も、ハングルが読めない方も大歓迎です</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 2：共感パート ============ -->
+  <section class="section empathy" id="empathy">
+    <h2 class="section__title">韓国語を勉強したいけど……</h2>
+    <ul class="empathy__list">
+      <li class="empathy__item reveal">
+        <span class="empathy__mark" aria-hidden="true">ㄱ</span>
+        <p>ハングルが読めなくて、何から始めればいいかわからない</p>
+      </li>
+      <li class="empathy__item reveal">
+        <span class="empathy__mark" aria-hidden="true">ㄴ</span>
+        <p>独学のアプリや参考書は、いつも途中で挫折してしまう</p>
+      </li>
+      <li class="empathy__item reveal">
+        <span class="empathy__mark" aria-hidden="true">ㄷ</span>
+        <p>韓国旅行のときに、簡単な会話くらいはしてみたい</p>
+      </li>
+      <li class="empathy__item reveal">
+        <span class="empathy__mark" aria-hidden="true">ㄹ</span>
+        <p>推しのライブ配信やインタビューを、字幕なしで理解したい</p>
+      </li>
+      <li class="empathy__item reveal">
+        <span class="empathy__mark" aria-hidden="true">ㅁ</span>
+        <p>韓国の方と、いつか韓国語で話してみたい</p>
+      </li>
+    </ul>
+    <p class="empathy__closer reveal">ひとつでも当てはまったら、<br>K Village 韓国語 町田校がお役に立てます。</p>
+  </section>
+
+  <!-- ============ SECTION 3：K Villageの特徴 ============ -->
+  <section class="section features" id="features">
+    <h2 class="section__title">K Village 韓国語 町田校が<br>選ばれる理由</h2>
+    <div class="features__grid">
+      <article class="feature-card reveal">
+        <h3>はじめての韓国語でも安心</h3>
+        <p>ハングルの読み方から、ひとつずつ丁寧に。「初めて」を前提にしたレッスンだから、置いていかれる心配がありません。</p>
+      </article>
+      <article class="feature-card reveal">
+        <h3>話すことを大切にするレッスン</h3>
+        <p>覚えるだけで終わらせず、実際に声に出して使う時間を大切にしています。</p>
+      </article>
+      <article class="feature-card reveal">
+        <h3>自分の「好き」に合わせて学べる</h3>
+        <p>K-POP、韓国ドラマ、韓国旅行など、あなたが韓国語を学びたい理由に寄り添います。</p>
+      </article>
+      <article class="feature-card reveal">
+        <h3>町田で通いやすい</h3>
+        <p><!-- 要確認：最寄駅からの具体的な所要時間・アクセス方法 -->町田エリアで通いやすい立地です。</p>
+      </article>
+      <!-- 要確認：講師の国籍・資格・クラス人数・レッスン形式（マンツーマン／グループ）などの詳細情報 -->
+    </div>
+  </section>
+
+  <!-- ============ SECTION 4：こんな人におすすめ ============ -->
+  <section class="section recommend" id="recommend">
+    <h2 class="section__title">こんな方におすすめです</h2>
+    <div class="recommend__grid">
+      <div class="recommend-card reveal"><p>韓国語を初めて勉強する方</p></div>
+      <div class="recommend-card reveal"><p>韓国旅行が好きな方</p></div>
+      <div class="recommend-card reveal"><p>K-POPが好きな方</p></div>
+      <div class="recommend-card reveal"><p>韓国ドラマが好きな方</p></div>
+      <div class="recommend-card reveal"><p>推しの言葉を理解したい方</p></div>
+      <div class="recommend-card reveal"><p>韓国語で会話してみたい方</p></div>
+      <div class="recommend-card reveal"><p>楽しく韓国語を学びたい方</p></div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 5：レッスンについて ============ -->
+  <section class="section lesson-flow" id="lesson">
+    <h2 class="section__title">レッスンの進み方</h2>
+    <p class="section__lead">ゼロから、少しずつ。無理のないステップで韓国語に慣れていきます。</p>
+    <ol class="flow">
+      <li class="flow__step reveal">
+        <span class="flow__num">1</span>
+        <div>
+          <h3>ハングル</h3>
+          <p>韓国語の文字「ハングル」の読み方に慣れるところからスタートします。</p>
+        </div>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__num">2</span>
+        <div>
+          <h3>単語・文法</h3>
+          <p>基本の単語と文法を、身近な例を通して少しずつ覚えていきます。</p>
+        </div>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__num">3</span>
+        <div>
+          <h3>簡単な会話</h3>
+          <p>覚えた単語や文法を使って、簡単なフレーズを声に出してみます。</p>
+        </div>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__num">4</span>
+        <div>
+          <h3>実際の会話</h3>
+          <p>日常のシーンを想定しながら、実際の会話に近い形で練習します。</p>
+        </div>
+      </li>
+    </ol>
+    <!-- 要確認：具体的なカリキュラム内容、レベル分け、教材の有無 -->
+  </section>
+
+  <!-- ============ SECTION 6：料金 ============ -->
+  <section class="section pricing" id="pricing">
+    <h2 class="section__title">料金について</h2>
+    <div class="pricing__box reveal">
+      <!-- 要確認：入会金・月謝・レッスン形式ごとの料金・教材費など -->
+      <p class="pricing__placeholder">料金情報をここに掲載</p>
+      <p class="pricing__note">最新の料金は無料体験レッスンのお申し込み時にご案内いたします。</p>
+    </div>
+    <div class="section__cta">
+      <a href="#form" class="btn btn--primary">無料体験レッスンを申し込む</a>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 7：生徒の声 ============ -->
+  <section class="section voices" id="voices">
+    <h2 class="section__title">生徒様の声</h2>
+    <div class="voices__grid">
+      <!-- 実際の生徒様の声を掲載（写真・年代・学習目的などをここに差し替え） -->
+      <article class="voice-card reveal">
+        <div class="voice-card__photo">
+          <!-- ここに生徒様の写真 -->
+          <img src="https://placehold.co/200x200/FFF1E6/E85C7F?text=1" alt="生徒様の写真" loading="lazy">
+        </div>
+        <p class="voice-card__body">実際の生徒様の声を掲載</p>
+        <p class="voice-card__meta"><!-- 例：30代女性・韓国旅行がきっかけ --></p>
+      </article>
+      <article class="voice-card reveal">
+        <div class="voice-card__photo">
+          <img src="https://placehold.co/200x200/FFF1E6/E85C7F?text=2" alt="生徒様の写真" loading="lazy">
+        </div>
+        <p class="voice-card__body">実際の生徒様の声を掲載</p>
+        <p class="voice-card__meta"></p>
+      </article>
+      <article class="voice-card reveal">
+        <div class="voice-card__photo">
+          <img src="https://placehold.co/200x200/FFF1E6/E85C7F?text=3" alt="生徒様の写真" loading="lazy">
+        </div>
+        <p class="voice-card__body">実際の生徒様の声を掲載</p>
+        <p class="voice-card__meta"></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 8：無料体験レッスン ============ -->
+  <section class="section trial" id="trial">
+    <div class="trial__inner reveal">
+      <h2 class="section__title">まずは、無料体験から。</h2>
+      <p class="trial__text">
+        韓国語を始めたいけど、自分に合うかわからない。<br>
+        そんな方は、まず無料体験レッスンで教室の雰囲気を体験してみませんか。
+      </p>
+      <p class="trial__text trial__text--sub">
+        ハングルが読めなくても、韓国語が全く初めてでも大丈夫です。<br>
+        あなたのペースに合わせて、丁寧にご案内します。
+      </p>
+      <a href="#form" class="btn btn--primary btn--large">無料体験レッスンを申し込む</a>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 9：アクセス ============ -->
+  <section class="section access" id="access">
+    <h2 class="section__title">アクセス</h2>
+    <div class="access__grid">
+      <div class="access__info reveal">
+        <dl>
+          <dt>教室名</dt>
+          <dd>K Village 韓国語 町田校</dd>
+          <dt>住所</dt>
+          <!-- 要確認：現在の正式な住所か要確認 -->
+          <dd>東京都町田市図師町2751-2</dd>
+          <dt>最寄駅</dt>
+          <!-- 要確認：最寄駅・出口・徒歩分数 -->
+          <dd>要確認</dd>
+          <dt>営業時間</dt>
+          <!-- 要確認：営業時間・定休日 -->
+          <dd>要確認</dd>
+        </dl>
+      </div>
+      <div class="access__map reveal">
+        <!-- ここにGoogleマップの埋め込み（iframe）を設置。住所確定後にsrcを差し替えてください -->
+        <div class="access__map-placeholder">地図をここに表示</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 10：よくある質問 ============ -->
+  <section class="section faq" id="faq">
+    <h2 class="section__title">よくある質問</h2>
+    <div class="faq__list">
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          韓国語を全く話せなくても大丈夫ですか？
+        </button>
+        <div class="faq-item__a">
+          <p>はい、大丈夫です。韓国語が初めての方に向けたレッスンですので、安心してご参加ください。</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          ハングルが読めなくても大丈夫ですか？
+        </button>
+        <div class="faq-item__a">
+          <p>はい、大丈夫です。ハングルの読み方から一緒に進めていきます。</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          韓国語初心者でも参加できますか？
+        </button>
+        <div class="faq-item__a">
+          <p>はい、参加いただけます。むしろ初心者の方を主な対象としています。</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          無料体験では何をしますか？
+        </button>
+        <div class="faq-item__a">
+          <!-- 要確認：無料体験の具体的な流れ・所要時間 -->
+          <p>要確認</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          どんな服装で行けばいいですか？
+        </button>
+        <div class="faq-item__a">
+          <!-- 要確認：服装の指定有無 -->
+          <p>要確認</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-item__q" aria-expanded="false">
+          申し込み後の流れを教えてください
+        </button>
+        <div class="faq-item__a">
+          <!-- 要確認：申込〜体験当日までの具体的な流れ・連絡方法 -->
+          <p>要確認</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 11：申し込みフォーム ============ -->
+  <section class="section apply" id="form">
+    <h2 class="section__title">無料体験レッスンの申し込み</h2>
+    <p class="section__lead">下記フォームにご入力のうえ、送信してください。</p>
+
+    <!--
+      送信先について：
+      現在は仮実装です。実際にメールで受信するには、下記のいずれかをご利用ください。
+      1. Formspree（無料で簡単。詳しくは説明文をご覧ください）
+      2. Google フォーム
+      3. Microsoft フォーム
+      4. 独自のサーバーサイド実装
+      想定メールアドレス：k-village.machida@outlook.jp
+    -->
+    <form id="apply-form" class="apply-form" novalidate>
+      <div class="form-row">
+        <label for="name">お名前<span class="required">必須</span></label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">メールアドレス<span class="required">必須</span></label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+      </div>
+      <div class="form-row">
+        <label for="tel">電話番号<span class="required">必須</span></label>
+        <input type="tel" id="tel" name="tel" autocomplete="tel" required>
+      </div>
+      <div class="form-row">
+        <label for="course">希望コース</label>
+        <!-- 要確認：実際に提供しているコース名一覧 -->
+        <select id="course" name="course">
+          <option value="">選択してください</option>
+          <option value="beginner">はじめての韓国語</option>
+          <option value="conversation">会話中心コース</option>
+          <option value="travel">旅行で使える韓国語</option>
+          <option value="unknown">まだ決めていない・相談したい</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="datetime">希望日時</label>
+        <input type="text" id="datetime" name="datetime" placeholder="例：平日夜、土曜の午前中など">
+      </div>
+      <div class="form-row">
+        <label for="message">その他・ご質問</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--large apply-form__submit">無料体験レッスンを申し込む</button>
+      <p class="apply-form__status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<!-- ============ フッター ============ -->
+<footer class="site-footer">
+  <p class="site-footer__name">K Village 韓国語 町田校</p>
+  <!-- 要確認：正式な住所・電話番号・運営会社名等 -->
+  <p class="site-footer__address">東京都町田市図師町2751-2（要確認）</p>
+  <p class="site-footer__copy">&copy; <span id="year"></span> K Village 韓国語 町田校</p>
+</footer>
+
+<!-- ============ スマホ用固定CTAバー ============ -->
+<div class="fixed-cta" id="fixed-cta">
+  <a href="#form" class="btn btn--primary btn--block">無料体験レッスンを申し込む</a>
+</div>
+
+<script>
+// ==========================================================
+// K Village 韓国語 町田校 LP - script.js
+// ==========================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  setFooterYear();
+  setupFaqAccordion();
+  setupScrollReveal();
+  setupFixedCta();
+  setupFormSubmit();
+});
+
+/* ---------- フッターの年 ---------- */
+function setFooterYear() {
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+}
+
+/* ---------- FAQアコーディオン ---------- */
+function setupFaqAccordion() {
+  const items = document.querySelectorAll('.faq-item');
+  items.forEach((item) => {
+    const button = item.querySelector('.faq-item__q');
+    if (!button) return;
+    button.addEventListener('click', () => {
+      const isOpen = item.getAttribute('data-open') === 'true';
+      item.setAttribute('data-open', String(!isOpen));
+      button.setAttribute('aria-expanded', String(!isOpen));
+    });
+  });
+}
+
+/* ---------- スクロールで要素をふわっと表示 ---------- */
+function setupScrollReveal() {
+  const targets = document.querySelectorAll('.reveal');
+  if (!targets.length) return;
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+    targets.forEach((el) => el.classList.add('is-visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  targets.forEach((el) => observer.observe(el));
+}
+
+/* ---------- スマホ用固定CTAバーの表示切り替え ---------- */
+function setupFixedCta() {
+  const fixedCta = document.getElementById('fixed-cta');
+  const hero = document.getElementById('hero');
+  if (!fixedCta || !hero) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        // ファーストビューが画面外に出たら固定CTAを表示する
+        fixedCta.classList.toggle('is-visible', !entry.isIntersecting);
+      });
+    },
+    { threshold: 0 }
+  );
+
+  observer.observe(hero);
+}
+
+/* ---------- 申し込みフォームの送信処理（仮実装） ---------- */
+function setupFormSubmit() {
+  const form = document.getElementById('apply-form');
+  const status = document.getElementById('form-status');
+  if (!form) return;
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const submitButton = form.querySelector('.apply-form__submit');
+    if (submitButton) submitButton.disabled = true;
+    if (status) status.textContent = '送信中です…';
+
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    try {
+      // ------------------------------------------------------------
+      // ここを実際の送信先に差し替えてください。
+      //
+      // 【方法A】Formspree を使う場合（一番かんたん）
+      //   1. https://formspree.io/ で無料アカウントを作成
+      //   2. 新しいフォームを作成し、通知先メールアドレスに
+      //      k-village.machida@outlook.jp を設定
+      //   3. 発行された Endpoint URL（https://formspree.io/f/xxxxxxx）を
+      //      下の FORM_ENDPOINT に貼り付ける
+      //   4. 下のコメントアウトを外して fetch を有効化する
+      //
+      // 【方法B】Google フォーム / Microsoft フォームを使う場合
+      //   このJSでの送信ではなく、index.html の <form> を
+      //   Google/Microsoft フォームへのリンクやiframe埋め込みに置き換える
+      //   方法が簡単です。
+      //
+      // 【方法C】独自サーバーで受け取る場合
+      //   FORM_ENDPOINT に自社サーバーのAPIのURLを設定してください。
+      // ------------------------------------------------------------
+
+      const FORM_ENDPOINT = ''; // 例: 'https://formspree.io/f/xxxxxxx'
+
+      if (FORM_ENDPOINT) {
+        const response = await fetch(FORM_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(data),
+        });
+
+        if (!response.ok) throw new Error('送信に失敗しました');
+      } else {
+        // FORM_ENDPOINT が未設定の間の仮の動作（コンソールに出力するのみ）
+        console.log('【仮送信】フォーム入力内容:', data);
+        await new Promise((resolve) => setTimeout(resolve, 600));
+      }
+
+      if (status) {
+        status.textContent = 'お申し込みありがとうございます。担当者よりご連絡いたします。';
+      }
+      form.reset();
+    } catch (error) {
+      console.error(error);
+      if (status) {
+        status.textContent = '送信に失敗しました。お手数ですが、お電話にてお問い合わせください。';
+      }
+    } finally {
+      if (submitButton) submitButton.disabled = false;
+    }
+  });
+}
+
+</script>
+</body>
+</html>

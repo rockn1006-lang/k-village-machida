@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>K Village 韓国語 町田校｜入学金0円・無料体験受付中</title>
+<meta name="description" content="町田駅徒歩3分の韓国語教室。1レッスン550円〜、入学金0円、初心者スタートが80%以上。K-POPや韓国ドラマが「わかる」を、町田で。まずは15分の無料体験へ。">
+<meta property="og:title" content="K Village 韓国語 町田校｜入学金0円・無料体験受付中">
+<meta property="og:description" content="町田駅徒歩3分。1レッスン550円〜、最大8名の少人数制。初心者スタートが80%以上。">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+KR:wght@700;900&family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink: #171233;
+  --ink-2: #4b4468;
+  --paper: #fffaf6;
+  --white: #ffffff;
+  --pink: #ff4d8d;
+  --violet: #7a5cff;
+  --lime: #d8ff5c;
+  --sky: #5cd5ff;
+  --line: #ece4f5;
+
+  --f-base: 'Zen Maru Gothic', 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif;
+  --f-display: 'Dela Gothic One', 'Zen Maru Gothic', sans-serif;
+  --f-ko: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+  --grad: linear-gradient(120deg, var(--pink), var(--violet));
+  --wrap: 1120px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--f-base);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  padding-bottom: 84px;
+}
+@media (min-width: 900px) { body { padding-bottom: 0; } }
+img { max-width: 100%; display: block; }
+h1, h2, h3, p, ul, dl, dd { margin: 0; padding: 0; }
+ul { list-style: none; }
+a { color: inherit; }
+
+.wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
+.sec { padding: 72px 0; position: relative; }
+@media (min-width: 900px) { .sec { padding: 112px 0; } }
+
+.tag {
+  display: inline-block;
+  font-family: var(--f-display);
+  font-size: .8rem;
+  letter-spacing: .12em;
+  background: var(--ink);
+  color: var(--lime);
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.h2 {
+  font-family: var(--f-display);
+  font-size: clamp(1.6rem, 5.4vw, 2.7rem);
+  line-height: 1.35;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.h2 em { font-style: normal; background: linear-gradient(transparent 62%, var(--lime) 62%); }
+.lead { color: var(--ink-2); max-width: 38em; }
+.center { text-align: center; }
+.center .lead { margin-inline: auto; }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5em;
+  font-family: var(--f-base); font-weight: 900; font-size: 1.05rem;
+  padding: 18px 34px; border-radius: 999px; text-decoration: none; border: 3px solid var(--ink);
+  background: var(--lime); color: var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+  transition: transform .15s, box-shadow .15s;
+  cursor: pointer;
+}
+.btn:hover { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
+.btn--pink { background: var(--pink); color: #fff; }
+.btn--ghost { background: #fff; }
+.btn small { font-weight: 700; font-size: .78em; opacity: .8; }
+
+/* ---------- header ---------- */
+.hd {
+  position: fixed; inset: 0 0 auto 0; z-index: 50;
+  padding: 10px 0;
+  background: rgba(255, 250, 246, .86);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--ink);
+}
+.hd .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.logo { font-family: var(--f-display); font-size: 1.05rem; text-decoration: none; line-height: 1.2; }
+.logo b { color: var(--pink); font-weight: 400; }
+.hd .btn { padding: 9px 18px; font-size: .85rem; box-shadow: 3px 3px 0 var(--ink); border-width: 2px; }
+.hd nav { display: none; }
+@media (min-width: 900px) {
+  .hd nav { display: flex; gap: 26px; font-weight: 700; font-size: .92rem; }
+  .hd nav a { text-decoration: none; }
+  .hd nav a:hover { color: var(--pink); }
+}
+
+/* ---------- hero ---------- */
+.hero {
+  padding-top: 110px; padding-bottom: 70px;
+  background:
+    radial-gradient(circle at 85% 12%, rgba(122, 92, 255, .28), transparent 42%),
+    radial-gradient(circle at 8% 88%, rgba(255, 77, 141, .25), transparent 40%),
+    var(--paper);
+  overflow: hidden;
+  position: relative;
+}
+.hero .wrap { display: grid; gap: 38px; align-items: center; }
+@media (min-width: 900px) { .hero { padding-top: 140px; } .hero .wrap { grid-template-columns: 1.15fr .85fr; } }
+
+.badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.badge {
+  font-weight: 900; font-size: .82rem; padding: 5px 13px; border-radius: 999px;
+  border: 2px solid var(--ink); background: #fff;
+}
+.badge:first-child { background: var(--lime); }
+
+.hero h1 {
+  font-family: var(--f-display); font-weight: 400;
+  font-size: clamp(2rem, 7.6vw, 3.4rem);
+  line-height: 1.25; margin-bottom: 20px;
+}
+.hero h1 .g {
+  background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero h1 .u { text-decoration: underline wavy var(--lime) 5px; text-underline-offset: 8px; text-decoration-skip-ink: none; }
+.hero p.sub { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 28px; max-width: 30em; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.hero .note { margin-top: 16px; font-size: .82rem; color: var(--ink-2); }
+
+/* hero art: big hangul card */
+.art { position: relative; min-height: 340px; }
+.card-k {
+  position: absolute; inset: 20px 10px 20px 10px;
+  background: var(--ink); border-radius: 36px; border: 3px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--pink);
+  display: grid; place-items: center; text-align: center; color: #fff;
+  transform: rotate(3deg);
+  overflow: hidden;
+}
+.card-k::before {
+  content: ""; position: absolute; inset: 0;
+  background: repeating-linear-gradient(135deg, rgba(255,255,255,.05) 0 2px, transparent 2px 16px);
+}
+.card-k .ko { font-family: var(--f-ko); font-weight: 900; font-size: clamp(4.2rem, 16vw, 7.4rem); line-height: 1; position: relative; }
+.card-k .ko span { color: var(--lime); }
+.card-k .yomi { position: relative; margin-top: 10px; font-weight: 700; letter-spacing: .3em; color: var(--sky); }
+.float {
+  position: absolute; font-family: var(--f-ko); font-weight: 900;
+  width: 64px; height: 64px; border-radius: 20px; display: grid; place-items: center;
+  font-size: 2rem; border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+  animation: bob 4s ease-in-out infinite;
+}
+.f1 { top: -6px; left: 0; background: var(--lime); }
+.f2 { top: 42%; right: -10px; background: var(--sky); animation-delay: -1.2s; }
+.f3 { bottom: -8px; left: 14%; background: var(--pink); color: #fff; animation-delay: -2.4s; }
+@keyframes bob { 0%,100% { transform: translateY(0) rotate(-6deg); } 50% { transform: translateY(-14px) rotate(6deg); } }
+
+/* marquee */
+.marquee { background: var(--ink); color: var(--lime); border-block: 3px solid var(--ink); overflow: hidden; white-space: nowrap; padding: 12px 0; }
+.marquee div { display: inline-block; font-family: var(--f-display); font-size: 1.05rem; animation: mq 26s linear infinite; }
+.marquee span { margin: 0 22px; }
+.marquee span:nth-child(even) { color: #fff; }
+@keyframes mq { to { transform: translateX(-50%); } }
+
+/* ---------- numbers ---------- */
+.nums { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 36px; }
+@media (min-width: 900px) { .nums { grid-template-columns: repeat(4, 1fr); gap: 20px; } }
+.num {
+  background: #fff; border: 3px solid var(--ink); border-radius: 24px; padding: 22px 14px 18px;
+  text-align: center; box-shadow: 5px 5px 0 var(--ink);
+}
+.num:nth-child(1) { background: var(--lime); }
+.num:nth-child(2) { background: var(--sky); }
+.num:nth-child(3) { background: #ffd0e2; }
+.num:nth-child(4) { background: #d9d0ff; }
+.num b { display: block; font-family: var(--f-display); font-weight: 400; font-size: clamp(1.9rem, 7vw, 3rem); line-height: 1.1; }
+.num b small { font-size: .45em; }
+.num span { font-weight: 700; font-size: .85rem; }
+
+/* ---------- hangul toy ---------- */
+.toy { background: var(--ink); color: #fff; overflow: hidden; }
+.toy .h2 em { background: none; color: var(--lime); }
+.toy .lead { color: #cfc8ea; }
+.toy-box {
+  margin-top: 36px; display: grid; gap: 26px; align-items: center;
+}
+@media (min-width: 900px) { .toy-box { grid-template-columns: 1fr 1fr; } }
+.pick h3 { font-size: .9rem; color: var(--sky); margin: 0 0 8px; }
+.keys { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 20px; }
+.key {
+  font-family: var(--f-ko); font-weight: 900; font-size: 1.5rem;
+  width: 54px; height: 54px; border-radius: 16px; cursor: pointer;
+  border: 3px solid #fff; background: transparent; color: #fff;
+  transition: transform .12s, background .12s;
+}
+.key:hover { transform: translateY(-3px); }
+.key[aria-pressed="true"] { background: var(--lime); color: var(--ink); border-color: var(--lime); }
+.result {
+  background: #fff; color: var(--ink); border-radius: 32px; padding: 30px 20px; text-align: center;
+  border: 3px solid var(--lime); box-shadow: 8px 8px 0 var(--pink);
+}
+.result .big { font-family: var(--f-ko); font-weight: 900; font-size: clamp(6rem, 24vw, 10rem); line-height: 1; }
+.result .big.pop { animation: pop .35s ease; }
+@keyframes pop { 0% { transform: scale(.6) rotate(-8deg); } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
+.result .read { font-weight: 900; font-size: 1.4rem; color: var(--pink); }
+.result .read span { color: var(--ink-2); font-size: .85rem; font-weight: 700; margin-left: .4em; }
+.toy .foot { margin-top: 26px; font-weight: 700; color: var(--lime); }
+
+/* ---------- reasons ---------- */
+.reasons { display: grid; gap: 18px; margin-top: 40px; }
+@media (min-width: 760px) { .reasons { grid-template-columns: repeat(3, 1fr); } }
+.rs {
+  background: #fff; border: 3px solid var(--ink); border-radius: 28px; padding: 30px 24px 26px;
+  position: relative; box-shadow: 6px 6px 0 var(--violet);
+}
+.rs .n {
+  position: absolute; top: -22px; left: 20px; font-family: var(--f-display);
+  background: var(--pink); color: #fff; border: 3px solid var(--ink); border-radius: 14px; padding: 2px 14px; font-size: 1.2rem;
+}
+.rs h3 { font-size: 1.2rem; margin-bottom: 8px; line-height: 1.5; }
+.rs p { font-size: .93rem; color: var(--ink-2); }
+
+/* ---------- lessons / price ---------- */
+.plans-bg { background: linear-gradient(180deg, #f1ecff, var(--paper)); }
+.plans { display: grid; gap: 18px; margin-top: 40px; }
+@media (min-width: 760px) { .plans { grid-template-columns: repeat(3, 1fr); } }
+.plan {
+  background: #fff; border: 3px solid var(--ink); border-radius: 28px; padding: 28px 22px; position: relative;
+}
+.plan.hot { background: var(--ink); color: #fff; box-shadow: 8px 8px 0 var(--pink); }
+.plan .ribbon {
+  position: absolute; top: -16px; right: 18px; background: var(--lime); color: var(--ink);
+  font-weight: 900; font-size: .8rem; padding: 4px 14px; border-radius: 999px; border: 3px solid var(--ink);
+}
+.plan h3 { font-size: 1.15rem; }
+.plan .who { font-size: .85rem; opacity: .8; margin-bottom: 14px; }
+.plan .price { font-family: var(--f-display); font-size: 2.5rem; line-height: 1.1; }
+.plan .price small { font-family: var(--f-base); font-weight: 700; font-size: .38em; margin-left: 2px; }
+.plan ul { margin-top: 14px; font-size: .9rem; }
+.plan li { padding-left: 1.5em; position: relative; margin-bottom: 4px; }
+.plan li::before { content: "✓"; position: absolute; left: 0; color: var(--pink); font-weight: 900; }
+.plan.hot li::before { color: var(--lime); }
+.fine { margin-top: 22px; font-size: .84rem; color: var(--ink-2); }
+.fine b { color: var(--ink); }
+
+/* ---------- teachers ---------- */
+.tchs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 36px; }
+@media (min-width: 900px) { .tchs { grid-template-columns: repeat(4, 1fr); gap: 20px; } }
+.tch { background: #fff; border: 3px solid var(--ink); border-radius: 24px; padding: 22px 12px; text-align: center; }
+.tch .av {
+  width: 76px; height: 76px; margin: 0 auto 12px; border-radius: 50%; border: 3px solid var(--ink);
+  display: grid; place-items: center; font-family: var(--f-ko); font-weight: 900; font-size: 1.9rem;
+}
+.tch:nth-child(1) .av { background: var(--lime); }
+.tch:nth-child(2) .av { background: var(--sky); }
+.tch:nth-child(3) .av { background: #ffd0e2; }
+.tch:nth-child(4) .av { background: #d9d0ff; }
+.tch b { display: block; font-size: 1rem; }
+.tch span { font-size: .78rem; color: var(--ink-2); }
+
+/* ---------- flow ---------- */
+.flow { display: grid; gap: 16px; margin-top: 38px; counter-reset: s; }
+@media (min-width: 900px) { .flow { grid-template-columns: repeat(3, 1fr); } }
+.st {
+  counter-increment: s; background: #fff; border: 3px solid var(--ink); border-radius: 26px;
+  padding: 26px 22px 22px 84px; position: relative; min-height: 120px;
+}
+.st::before {
+  content: counter(s); position: absolute; left: 20px; top: 22px;
+  width: 48px; height: 48px; border-radius: 50%; background: var(--grad); color: #fff;
+  font-family: var(--f-display); display: grid; place-items: center; font-size: 1.4rem; border: 3px solid var(--ink);
+}
+.st h3 { font-size: 1.08rem; margin-bottom: 4px; }
+.st p { font-size: .9rem; color: var(--ink-2); }
+
+/* ---------- access ---------- */
+.access { display: grid; gap: 26px; margin-top: 36px; }
+@media (min-width: 900px) { .access { grid-template-columns: 1fr 1fr; align-items: stretch; } }
+.info { background: #fff; border: 3px solid var(--ink); border-radius: 28px; padding: 26px 24px; box-shadow: 6px 6px 0 var(--sky); }
+.info dl { display: grid; grid-template-columns: 5.5em 1fr; gap: 12px 14px; font-size: .95rem; }
+.info dt { font-weight: 900; color: var(--pink); }
+.info dd { margin: 0; }
+.map { border: 3px solid var(--ink); border-radius: 28px; overflow: hidden; min-height: 320px; background: #eee; }
+.map iframe { width: 100%; height: 100%; min-height: 320px; border: 0; display: block; }
+
+/* ---------- faq ---------- */
+.faq { max-width: 780px; margin: 36px auto 0; display: grid; gap: 12px; }
+.faq details { background: #fff; border: 3px solid var(--ink); border-radius: 20px; padding: 0 20px; }
+.faq summary { cursor: pointer; font-weight: 900; padding: 16px 28px 16px 0; list-style: none; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-family: var(--f-display); color: var(--pink); font-size: 1.4rem; }
+.faq details[open] summary::after { content: "−"; }
+.faq details p { padding-bottom: 16px; color: var(--ink-2); font-size: .93rem; }
+
+/* ---------- final cta ---------- */
+.final {
+  background: var(--grad); color: #fff; text-align: center; overflow: hidden;
+  border-top: 3px solid var(--ink);
+}
+.final .h2 { color: #fff; }
+.final .h2 em { background: none; color: var(--lime); }
+.final .lead { color: #fff; opacity: .92; margin-inline: auto; }
+.final .cta-row { justify-content: center; margin-top: 30px; }
+.final .bgko {
+  position: absolute; inset: auto 0 -30px 0; font-family: var(--f-ko); font-weight: 900;
+  font-size: clamp(7rem, 30vw, 20rem); line-height: 1; opacity: .12; white-space: nowrap; pointer-events: none; text-align: center;
+}
+.final .wrap { position: relative; }
+
+footer { background: var(--ink); color: #b9b1d6; padding: 34px 0; font-size: .8rem; text-align: center; }
+footer b { color: #fff; }
+
+/* sticky sp cta */
+.sticky {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(255, 250, 246, .95); backdrop-filter: blur(8px); border-top: 3px solid var(--ink);
+}
+.sticky .btn { width: 100%; padding: 14px; }
+@media (min-width: 900px) { .sticky { display: none; } }
+
+/* hero polaroid */
+.polaroid {
+  position: absolute; right: -4px; bottom: -70px; width: 44%; max-width: 200px; z-index: 3;
+  background: #fff; padding: 8px 8px 30px; border: 3px solid var(--ink); border-radius: 10px;
+  box-shadow: 6px 6px 0 var(--ink); transform: rotate(-5deg);
+}
+.polaroid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+.polaroid span { position: absolute; left: 0; right: 0; bottom: 5px; text-align: center; font-weight: 900; font-size: .72rem; }
+.hero .art { margin-bottom: 70px; }
+.card-k .ko { transform: translateY(-14%); }
+
+/* classroom */
+.room { display: grid; gap: 30px; align-items: center; }
+@media (min-width: 900px) { .room { grid-template-columns: 1.25fr .75fr; } }
+.room-photo { position: relative; }
+.room-photo img {
+  width: 100%; border: 3px solid var(--ink); border-radius: 30px; box-shadow: 10px 10px 0 var(--lime);
+  aspect-ratio: 4 / 3; object-fit: cover;
+}
+.room-photo .thumbs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+.room-photo .thumbs img { border-radius: 22px; box-shadow: 6px 6px 0 var(--pink); aspect-ratio: 4 / 3; }
+.room-photo .sticker {
+  position: absolute; left: -6px; top: -18px; transform: rotate(-6deg);
+  background: var(--pink); color: #fff; font-family: var(--f-display); font-size: .95rem;
+  padding: 6px 16px; border: 3px solid var(--ink); border-radius: 999px; box-shadow: 3px 3px 0 var(--ink);
+}
+.room ul { margin-top: 18px; display: grid; gap: 10px; }
+.room li { background: #fff; border: 3px solid var(--ink); border-radius: 16px; padding: 10px 16px; font-weight: 700; font-size: .95rem; }
+.room li b { color: var(--pink); margin-right: .4em; }
+
+/* teacher carousel */
+.tscroll {
+  display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding: 12px 20px 30px; margin: 30px -20px 0; -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--pink) transparent;
+}
+.tcard {
+  flex: 0 0 auto; width: min(78vw, 320px); scroll-snap-align: center; padding: 0; cursor: zoom-in;
+  background: #fff; border: 3px solid var(--ink); border-radius: 24px; overflow: hidden;
+  box-shadow: 6px 6px 0 var(--ink); font: inherit; text-align: left; transition: transform .15s;
+}
+.tcard:hover { transform: translateY(-4px) rotate(-1deg); }
+.tcard img { width: 100%; height: auto; display: block; }
+.thint { text-align: center; font-size: .82rem; font-weight: 700; color: var(--ink-2); }
+@media (min-width: 1100px) {
+  .tscroll { flex-wrap: wrap; overflow: visible; justify-content: center; margin-inline: 0; padding-inline: 0; }
+  .tcard { width: calc((100% - 36px) / 3 - 12px); max-width: 340px; }
+  .thint .sp { display: none; }
+}
+.lb { border: 3px solid var(--ink); border-radius: 22px; padding: 0; background: #fff; max-width: min(92vw, 560px); max-height: 92vh; overflow: auto; }
+.lb::backdrop { background: rgba(23, 18, 51, .78); }
+.lb img { width: 100%; height: auto; display: block; }
+.lb .x {
+  position: sticky; top: 8px; float: right; margin: 8px 8px -44px 0; z-index: 2;
+  width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--ink); background: var(--lime);
+  font-weight: 900; font-size: 1.1rem; cursor: pointer;
+}
+
+/* contact / sns */
+.contact-bg { background: var(--ink); color: #fff; }
+.contact-bg .h2 em { background: none; color: var(--lime); }
+.contact-bg .lead { color: #cfc8ea; }
+.cts { display: grid; gap: 20px; margin-top: 36px; max-width: 860px; margin-inline: auto; }
+@media (min-width: 760px) { .cts { grid-template-columns: 1fr 1fr; } }
+.ct {
+  background: #fff; color: var(--ink); border: 3px solid var(--lime); border-radius: 28px; padding: 26px 22px; text-align: center;
+}
+.ct h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.3rem; margin-bottom: 4px; }
+.ct p { font-size: .88rem; color: var(--ink-2); margin-bottom: 14px; }
+.ct .qr { width: 170px; height: 170px; margin: 0 auto 14px; border: 3px solid var(--ink); border-radius: 18px; padding: 6px; background: #fff; }
+.ct .btn { width: 100%; padding: 14px 20px; font-size: .98rem; }
+.btn--line { background: #06c755; color: #fff; }
+.btn--insta { background: linear-gradient(45deg, #ffb347, #ff4d8d 55%, #7a5cff); color: #fff; }
+.ct .ig-ico {
+  width: 170px; height: 170px; margin: 0 auto 14px; border-radius: 42px; display: grid; place-items: center;
+  background: linear-gradient(45deg, #ffb347, #ff4d8d 55%, #7a5cff); border: 3px solid var(--ink);
+}
+.ct .ig-ico svg { width: 88px; height: 88px; }
+
+/* trial form */
+.form-card {
+  margin: 40px auto 0; max-width: 680px; text-align: left; scroll-margin-top: 90px;
+  background: #fff; border: 3px solid var(--ink); border-radius: 32px; padding: 30px 22px 26px;
+  box-shadow: 8px 8px 0 var(--pink);
+}
+@media (min-width: 700px) { .form-card { padding: 40px 42px 34px; } }
+.form-title { font-family: var(--f-display); font-weight: 400; font-size: 1.45rem; line-height: 1.4; margin-bottom: 6px; }
+.form-sub { color: var(--ink-2); font-size: .9rem; margin-bottom: 24px; }
+.fld { margin: 0 0 20px; padding: 0; border: 0; min-width: 0; }
+.fld label, .fld legend { display: block; font-weight: 900; font-size: .93rem; margin-bottom: 7px; padding: 0; }
+.req, .opt { font-size: .68rem; font-weight: 900; padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; }
+.req { background: var(--pink); color: #fff; }
+.opt { background: var(--line); color: var(--ink-2); }
+.fld input[type="text"], .fld input[type="email"], .fld input[type="tel"], .fld select, .fld textarea {
+  width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--paper);
+  border: 3px solid var(--ink); border-radius: 16px; padding: 13px 15px; outline: none;
+  transition: box-shadow .15s, background .15s;
+}
+.fld textarea { resize: vertical; min-height: 110px; }
+.fld input:focus, .fld select:focus, .fld textarea:focus { background: #fff; box-shadow: 0 0 0 4px var(--lime); }
+.fld small { display: block; margin-top: 6px; font-size: .78rem; color: var(--ink-2); }
+.fld .bad { border-color: #e0245e; background: #fff0f5; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip span {
+  display: inline-block; font-weight: 700; font-size: .9rem; padding: 10px 16px; cursor: pointer;
+  border: 3px solid var(--ink); border-radius: 999px; background: #fff; transition: background .12s, transform .12s;
+}
+.chip span:hover { transform: translateY(-2px); }
+.chip input:checked + span { background: var(--lime); box-shadow: 3px 3px 0 var(--ink); }
+.chip input:focus-visible + span { outline: 3px solid var(--violet); outline-offset: 2px; }
+.agree { display: flex; gap: 10px; align-items: flex-start; font-size: .84rem; color: var(--ink-2); margin: 4px 0 20px; cursor: pointer; }
+.agree input { width: 22px; height: 22px; margin-top: 2px; flex: none; accent-color: var(--pink); }
+.form-msg { background: #fff0f5; border: 3px solid #e0245e; color: #a3123f; border-radius: 16px; padding: 12px 16px; font-size: .88rem; font-weight: 700; margin-bottom: 16px; }
+.form-msg a { color: inherit; }
+.form-btn { width: 100%; font-size: 1.1rem; }
+.form-btn[disabled] { opacity: .6; cursor: wait; transform: none; box-shadow: 5px 5px 0 var(--ink); }
+.form-done { text-align: center; padding: 18px 4px 8px; }
+.form-done .done-ico {
+  width: 76px; height: 76px; margin: 0 auto 14px; border-radius: 50%; background: var(--lime);
+  border: 3px solid var(--ink); display: grid; place-items: center; font-family: var(--f-display); font-size: 2.2rem;
+}
+.form-done h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.4rem; margin-bottom: 8px; }
+.form-done p { color: var(--ink-2); }
+
+/* reveal */
+.rv { opacity: 0; transform: translateY(26px); transition: opacity .6s, transform .6s; }
+.rv.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .float, .marquee div, .result .big.pop { animation: none; }
+  .rv { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="#top">K Village <b>韓国語</b> 町田校</a>
+    <nav>
+      <a href="#toy">ハングル体験</a>
+      <a href="#reason">選ばれる理由</a>
+      <a href="#plan">料金</a>
+      <a href="#sns">LINE・SNS</a>
+      <a href="#access">アクセス</a>
+      <a href="#faq">Q&amp;A</a>
+    </nav>
+    <a class="btn btn--pink" href="#form">無料体験</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="badge-row">
+        <span class="badge">町田駅 徒歩3分</span>
+        <span class="badge">入学金 0円</span>
+        <span class="badge">初心者スタート80%以上</span>
+      </div>
+      <h1>推しの言葉が、<br><span class="g">わかる</span>ようになる。<br><span class="u">町田</span>で、はじめよう。</h1>
+      <p class="sub">K-POPも、韓国ドラマも、韓国旅行も。「好き」から始める韓国語は、続く。日本語で教えてもらえるから、ハングルが全く読めなくても大丈夫です。</p>
+      <div class="cta-row">
+        <a class="btn" href="#form">無料体験レッスンを予約 <small>約15分</small></a>
+        <a class="btn btn--ghost" href="#toy">ハングルを触ってみる</a>
+      </div>
+      <p class="note">※ 2026年4月20日オープンの新校舎です</p>
+    </div>
+    <div class="art" aria-hidden="true">
+      <div class="card-k">
+        <div>
+          <div class="ko">안녕<span>!</span></div>
+          <div class="yomi">アンニョン</div>
+        </div>
+      </div>
+      <div class="float f1">ㅎ</div>
+      <div class="float f2">사</div>
+      <div class="float f3">랑</div>
+      <div class="polaroid"><img src="assets/trial-1.jpg" alt="ホワイトボードで母音を教える講師と、隣で聞く生徒さん" loading="eager"><span>体験レッスンの様子</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div>
+    <span>사랑해요</span><span>K-POP</span><span>감사합니다</span><span>韓ドラ</span><span>맛있어요</span><span>韓国旅行</span><span>안녕하세요</span><span>推し活</span>
+    <span>사랑해요</span><span>K-POP</span><span>감사합니다</span><span>韓ドラ</span><span>맛있어요</span><span>韓国旅行</span><span>안녕하세요</span><span>推し活</span>
+  </div>
+</div>
+
+<!-- ================= NUMBERS ================= -->
+<section class="sec">
+  <div class="wrap center">
+    <span class="tag">WHY K VILLAGE</span>
+    <h2 class="h2 rv">気軽に始めて、<em>ちゃんと続く</em>。</h2>
+    <p class="lead rv">日本最大級の韓国語教室が、町田駅前にできました。全国31校舎・在籍16,000名超のノウハウを、この街で。</p>
+    <div class="nums">
+      <div class="num rv"><b>550<small>円〜</small></b><span>1レッスン(クラス)</span></div>
+      <div class="num rv"><b>0<small>円</small></b><span>入学金</span></div>
+      <div class="num rv"><b>8<small>名まで</small></b><span>少人数クラス</span></div>
+      <div class="num rv"><b>3<small>か月</small></b><span>簡単な会話を目標に</span></div>
+    </div>
+    <p class="fine">※ 別途、月額基本料金3,300円が必要です。料金はすべて税込。</p>
+  </div>
+</section>
+
+<!-- ================= HANGUL TOY ================= -->
+<section class="sec toy" id="toy">
+  <div class="wrap">
+    <span class="tag">TRY IT</span>
+    <h2 class="h2">ハングルは、<em>パズル</em>みたいに読める。</h2>
+    <p class="lead">子音と母音を組み合わせるだけ。下の文字をタップして、韓国語の1文字をつくってみてください。</p>
+
+    <div class="toy-box">
+      <div class="pick">
+        <h3>① 子音をえらぶ</h3>
+        <div class="keys" id="cons"></div>
+        <h3>② 母音をえらぶ</h3>
+        <div class="keys" id="vows"></div>
+      </div>
+      <div class="result" aria-live="polite">
+        <div class="big" id="bigCh">가</div>
+        <div class="read"><span id="readCh">カ</span><span>に近い音</span></div>
+      </div>
+    </div>
+    <p class="foot">できた？ その感覚で、3か月後には簡単な会話まで。 → 続きは体験レッスンで！</p>
+  </div>
+</section>
+
+<!-- ================= REASONS ================= -->
+<section class="sec" id="reason">
+  <div class="wrap">
+    <div class="center">
+      <span class="tag">3 REASONS</span>
+      <h2 class="h2">町田校が、<em>選ばれる</em>理由</h2>
+    </div>
+    <div class="reasons">
+      <article class="rs rv">
+        <span class="n">01</span>
+        <h3>日本語OK。だから初心者でも安心</h3>
+        <p>講師は日本語堪能なネイティブの先生。生徒さんの80%以上が初心者スタート。わからないところは日本語で質問できます。</p>
+      </article>
+      <article class="rs rv">
+        <span class="n">02</span>
+        <h3>「好き」でつながる仲間ができる</h3>
+        <p>10代〜70代まで幅広い世代が通う教室。K-POPや韓ドラ好きが集まるから、ひとりでは続かなかった勉強も楽しく続きます。</p>
+      </article>
+      <article class="rs rv">
+        <span class="n">03</span>
+        <h3>駅近&amp;振替OKで、生活に馴染む</h3>
+        <p>小田急線・JR横浜線「町田駅」から徒歩圏。振替レッスン制度があり、前々日18時までのキャンセルなら料金もかかりません。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLASSROOM ================= -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="room">
+      <div class="room-photo rv">
+        <span class="sticker">体験レッスンの様子</span>
+        <img class="main" src="assets/trial-3.jpg" alt="ホワイトボードに書いた母音を指しながら説明する講師と、ノートを開いて聞く生徒さん" loading="lazy">
+        <div class="thumbs">
+          <img src="assets/trial-1.jpg" alt="母音の表を前に、笑顔で説明する講師" loading="lazy">
+          <img src="assets/trial-2.jpg" alt="カラフルな「안녕하세요」の壁の前で、テキストを持って教える講師" loading="lazy" style="object-position: 62% 40%">
+        </div>
+      </div>
+      <div class="rv">
+        <span class="tag">CLASSROOM</span>
+        <h2 class="h2">明るい教室で、<br><em>ぐっと近い</em>距離感。</h2>
+        <p class="lead">体験レッスンは、母音の読み方からスタート。先生との距離が近いから、質問もしやすい雰囲気です。</p>
+        <ul>
+          <li><b>●</b>ホワイトボードを使ったていねいな解説</li>
+          <li><b>●</b>先生と目が合う、ちょうどいい距離感</li>
+          <li><b>●</b>教室にはFree Wi-Fiも完備</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLANS ================= -->
+<section class="sec plans-bg" id="plan">
+  <div class="wrap">
+    <div class="center">
+      <span class="tag">LESSON &amp; PRICE</span>
+      <h2 class="h2">あなたに合う、<em>通い方</em>を。</h2>
+      <p class="lead">クラス・ペア・トリオ・マンツーマン。目的やペースで選べます。</p>
+    </div>
+    <div class="plans">
+      <div class="plan rv">
+        <h3>ペア／トリオ</h3>
+        <p class="who">友だちや家族と一緒に</p>
+        <p class="price">4,400<small>円〜 / 1レッスン</small></p>
+        <ul>
+          <li>2名または3名で1レッスン</li>
+          <li>ペアなら1名あたり2,200円以下</li>
+          <li>自由予約制</li>
+        </ul>
+      </div>
+      <div class="plan hot rv">
+        <span class="ribbon">いちばん人気の入口</span>
+        <h3>クラスレッスン</h3>
+        <p class="who">まずは気軽に始めたい方へ</p>
+        <p class="price">550<small>円〜 / 1レッスン</small></p>
+        <ul>
+          <li>最大8名の少人数制</li>
+          <li>決まった曜日・時間で通いやすい</li>
+          <li>同じ趣味の仲間と学べる</li>
+        </ul>
+      </div>
+      <div class="plan rv">
+        <h3>マンツーマン</h3>
+        <p class="who">自分のペースで、集中して</p>
+        <p class="price">4,400<small>円〜 / 1レッスン</small></p>
+        <ul>
+          <li>先生とマンツーマン</li>
+          <li>自由予約制</li>
+          <li>オンライン受講も可能</li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine"><b>入学金 0円。</b>別途、月額基本料金3,300円(税込)がかかります。ジュニア向けレッスンもあります。詳細は<a href="https://kvillage.jp/flow/lesson/" target="_blank" rel="noopener">公式サイト</a>をご確認ください。</p>
+  </div>
+</section>
+
+<!-- ================= TEACHERS ================= -->
+<section class="sec">
+  <div class="wrap center">
+    <span class="tag">TEACHERS</span>
+    <h2 class="h2 rv">個性豊かな<em>ネイティブ講師</em>が9名</h2>
+    <p class="lead rv">みんな日本語OK。初心者さんの「わからない」に、ていねいに寄り添います。</p>
+  </div>
+  <div class="wrap">
+    <div class="tscroll" id="tscroll">
+      <button type="button" class="tcard" data-src="assets/teacher-wonjik.png" data-alt="ウォンジク先生の紹介"><img src="assets/teacher-wonjik.png" alt="ウォンジク先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-subin.jpg" data-alt="スビン先生の紹介"><img src="assets/teacher-subin.jpg" alt="スビン先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-sanghyeop.jpg" data-alt="サンヒョプ先生の紹介"><img src="assets/teacher-sanghyeop.jpg" alt="サンヒョプ先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-sera.png" data-alt="セラ先生の紹介"><img src="assets/teacher-sera.png" alt="セラ先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-jongnam.png" data-alt="ジョンナム先生の紹介"><img src="assets/teacher-jongnam.png" alt="ジョンナム先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-seo.png" data-alt="ソウ先生の紹介"><img src="assets/teacher-seo.png" alt="ソウ先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-soyoung.png" data-alt="ソヨン先生の紹介"><img src="assets/teacher-soyoung.png" alt="ソヨン先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-hana.png" data-alt="ハナ先生の紹介"><img src="assets/teacher-hana.png" alt="ハナ先生の紹介カード" loading="lazy"></button>
+      <button type="button" class="tcard" data-src="assets/teacher-hanna.jpg" data-alt="ハンナ先生の紹介"><img src="assets/teacher-hanna.jpg" alt="ハンナ先生の紹介カード" loading="lazy"></button>
+    </div>
+    <p class="thint"><span class="sp">← 横にスワイプ →　</span>タップで拡大できます</p>
+  </div>
+  <dialog class="lb" id="lb" aria-label="講師紹介">
+    <button type="button" class="x" id="lbx" aria-label="閉じる">✕</button>
+    <img id="lbimg" src="" alt="">
+  </dialog>
+</section>
+
+<!-- ================= FLOW ================= -->
+<section class="sec" id="trial" style="padding-top:0">
+  <div class="wrap center">
+    <span class="tag">FREE TRIAL</span>
+    <h2 class="h2 rv">まずは<em>無料体験</em>から。手ぶらでOK。</h2>
+    <p class="lead rv">初心者の方は、発音と読み方を約15分で体験。経験者の方はレベルチェックを行います。</p>
+    <div class="flow">
+      <div class="st rv" style="text-align:left"><h3>お申し込み</h3><p>下のフォームに、ご希望の日時などを入力して送信します。</p></div>
+      <div class="st rv" style="text-align:left"><h3>無料体験レッスン</h3><p>初心者は発音・読み方を体験。経験者はレベルチェック。</p></div>
+      <div class="st rv" style="text-align:left"><h3>ご相談・入会</h3><p>目的に合うコースをご提案。入学金は0円です。</p></div>
+    </div>
+
+    <div class="form-card" id="form">
+      <h3 class="form-title">無料体験レッスン お申し込み</h3>
+      <p class="form-sub">1〜2分で完了します。送信後、教室から日時確認のご連絡をお送りします。</p>
+
+      <form id="trialForm" novalidate>
+        <!-- スパム対策（人間には見えない欄） -->
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+
+        <div class="fld">
+          <label for="f-name">お名前 <span class="req">必須</span></label>
+          <input id="f-name" name="お名前" type="text" autocomplete="name" placeholder="例：町田 花子" required>
+        </div>
+        <div class="fld">
+          <label for="f-email">メールアドレス <span class="req">必須</span></label>
+          <input id="f-email" name="メールアドレス" type="email" autocomplete="email" inputmode="email" placeholder="例：example@mail.com" required>
+        </div>
+        <div class="fld">
+          <label for="f-tel">電話番号 <span class="opt">任意</span></label>
+          <input id="f-tel" name="電話番号" type="tel" autocomplete="tel" inputmode="tel" placeholder="例：090-1234-5678">
+        </div>
+
+        <fieldset class="fld">
+          <legend>韓国語の経験 <span class="req">必須</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="韓国語の経験" value="まったくの初心者" required><span>まったくの初心者</span></label>
+            <label class="chip"><input type="radio" name="韓国語の経験" value="少し学んだことがある"><span>少し学んだことがある</span></label>
+            <label class="chip"><input type="radio" name="韓国語の経験" value="経験者（レベルチェック希望）"><span>経験者</span></label>
+          </div>
+        </fieldset>
+
+        <div class="fld">
+          <label for="f-course">気になるコース <span class="opt">任意</span></label>
+          <select id="f-course" name="気になるコース">
+            <option value="">選択してください</option>
+            <option>クラスレッスン（最大8名）</option>
+            <option>マンツーマン</option>
+            <option>ペアレッスン</option>
+            <option>トリオレッスン</option>
+            <option>ジュニア向けレッスン</option>
+            <option>まだ決まっていない</option>
+          </select>
+        </div>
+
+        <div class="fld">
+          <label for="f-d1">ご希望の日時（第1希望） <span class="req">必須</span></label>
+          <input id="f-d1" name="第1希望" type="text" placeholder="例：10/5(日) 午後 / 平日の夜など" required>
+        </div>
+        <div class="fld">
+          <label for="f-d2">ご希望の日時（第2希望） <span class="opt">任意</span></label>
+          <input id="f-d2" name="第2希望" type="text" placeholder="例：10/8(水) 19時ごろ">
+          <small>営業時間：月〜金 13:00〜21:00 ／ 土・日 10:00〜18:00</small>
+        </div>
+
+        <div class="fld">
+          <label for="f-msg">ご質問・ご要望 <span class="opt">任意</span></label>
+          <textarea id="f-msg" name="ご質問・ご要望" rows="4" placeholder="例：K-POPの歌詞がわかるようになりたい／学生ですが通えますか？"></textarea>
+        </div>
+
+        <label class="agree">
+          <input type="checkbox" id="f-agree" required>
+          <span>ご入力いただいた個人情報は、体験レッスンのご連絡・ご案内の目的にのみ使用することに同意します。</span>
+        </label>
+
+        <p class="form-msg" id="formMsg" role="alert" hidden></p>
+        <button class="btn btn--pink form-btn" type="submit" id="formBtn">この内容で送信する</button>
+      </form>
+
+      <div class="form-done" id="formDone" hidden>
+        <div class="done-ico">✓</div>
+        <h3>送信ありがとうございます！</h3>
+        <p>お申し込みを受け付けました。<br>教室から、ご入力のメールアドレスまたはお電話にてご連絡いたします。<br>しばらくお待ちください。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LINE / INSTAGRAM ================= -->
+<section class="sec contact-bg" id="sns">
+  <div class="wrap center">
+    <span class="tag">FOLLOW &amp; CHAT</span>
+    <h2 class="h2">まずは<em>気軽に</em>のぞいてみて。</h2>
+    <p class="lead">体験レッスンのご相談はLINEから。教室の雰囲気や最新情報はInstagramでチェックできます。</p>
+    <div class="cts">
+      <div class="ct rv">
+        <h3>LINE</h3>
+        <p>ご質問・体験のご相談はこちら</p>
+        <img class="qr" src="assets/qr-line.png" alt="K Village 町田校 LINEのQRコード" width="170" height="170" loading="lazy">
+        <a class="btn btn--line" href="https://lin.ee/yHTba87" target="_blank" rel="noopener">LINEで友だち追加</a>
+      </div>
+      <div class="ct rv">
+        <h3>Instagram</h3>
+        <p>教室の雰囲気や最新情報をチェック</p>
+        <div class="ig-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg>
+        </div>
+        <a class="btn btn--insta" href="https://www.instagram.com/kvillage.machida/" target="_blank" rel="noopener">Instagramを見る</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACCESS ================= -->
+<section class="sec plans-bg" id="access">
+  <div class="wrap">
+    <div class="center">
+      <span class="tag">ACCESS</span>
+      <h2 class="h2">町田駅から、<em>歩いてすぐ</em>。</h2>
+    </div>
+    <div class="access">
+      <div class="info rv">
+        <dl>
+          <dt>校舎名</dt><dd>K Village 韓国語 町田校</dd>
+          <dt>住所</dt><dd>〒194-0013<br>東京都町田市原町田6丁目28-16<br>フジビル'88 402</dd>
+          <dt>アクセス</dt><dd>小田急小田原線「町田駅」徒歩3分<br>JR横浜線「町田駅」徒歩5分</dd>
+          <dt>営業時間</dt><dd>月〜金 13:00〜21:00<br>土・日 10:00〜18:00</dd>
+          <dt>休み</dt><dd>年末年始</dd>
+        </dl>
+      </div>
+      <div class="map rv">
+        <iframe title="K Village 韓国語 町田校の地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%94%BA%E7%94%B0%E5%B8%82%E5%8E%9F%E7%94%BA%E7%94%B06%E4%B8%81%E7%9B%AE28-16&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="center">
+      <span class="tag">Q&amp;A</span>
+      <h2 class="h2">よくある<em>ご質問</em></h2>
+    </div>
+    <div class="faq">
+      <details><summary>ハングルが全く読めなくても大丈夫ですか？</summary><p>大丈夫です。生徒さんの80%以上が初心者スタートで、レッスンは日本語を交えて進みます。体験でも発音・読み方をやさしく体験できます。</p></details>
+      <details><summary>入学金はかかりますか？</summary><p>入学金は0円です。別途、月額基本料金3,300円(税込)と、レッスンごとの授業料がかかります。</p></details>
+      <details><summary>予定が合わない日は休むことになりますか？</summary><p>振替レッスン制度があります。前々日18時までのご連絡なら、キャンセル料はかかりません。</p></details>
+      <details><summary>年齢制限はありますか？</summary><p>10代〜70代まで幅広い年代の方が通っています。ジュニア向けレッスンもあります。</p></details>
+      <details><summary>1人ずつ習うこともできますか？</summary><p>マンツーマンのほか、2名のペア、3名のトリオもご用意しています。マンツーマンはオンライン受講も可能です。</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="sec final">
+  <div class="bgko" aria-hidden="true">시작!</div>
+  <div class="wrap">
+    <h2 class="h2">「いつか」を、<br><em>今日</em>に変えよう。</h2>
+    <p class="lead">入学金0円・体験無料。町田駅から徒歩3分で、あなたの韓国語がはじまります。</p>
+    <div class="cta-row">
+      <a class="btn" href="#form">無料体験レッスンを予約する</a>
+      <a class="btn btn--line" href="https://lin.ee/yHTba87" target="_blank" rel="noopener">LINEで相談する</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>K Village 韓国語 町田校</b></p>
+    <p>〒194-0013 東京都町田市原町田6丁目28-16 フジビル'88 402</p>
+    <p>&copy; <span id="yr"></span> K Village 韓国語 町田校 (デザイン案)</p>
+  </div>
+</footer>
+
+<div class="sticky"><a class="btn btn--pink" href="#form">無料体験レッスンを予約する</a></div>
+
+<script>
+(function () {
+  // ---- year ----
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // ---- reveal ----
+  var els = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: .15 });
+    els.forEach(function (el) { io.observe(el); });
+  } else { els.forEach(function (el) { el.classList.add('in'); }); }
+
+  // ---- trial form ----
+  // 受信先メールアドレス（FormSubmit経由で送信。初回送信時に確認メールが届くので承認が必要）
+  var TO = 'k-villagem.machida@outlook.jp';
+  var form = document.getElementById('trialForm');
+  var msg = document.getElementById('formMsg');
+  var btn = document.getElementById('formBtn');
+
+  function showMsg(html) { msg.innerHTML = html; msg.hidden = false; }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    msg.hidden = true;
+    form.querySelectorAll('.bad').forEach(function (x) { x.classList.remove('bad'); });
+
+    var need = [['f-name', 'お名前'], ['f-email', 'メールアドレス'], ['f-d1', 'ご希望の日時（第1希望）']];
+    for (var i = 0; i < need.length; i++) {
+      var el = document.getElementById(need[i][0]);
+      if (!el.value.trim()) { el.classList.add('bad'); el.focus(); showMsg(need[i][1] + 'を入力してください。'); return; }
+    }
+    var em = document.getElementById('f-email');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())) { em.classList.add('bad'); em.focus(); showMsg('メールアドレスの形式をご確認ください。'); return; }
+    if (!form.querySelector('input[name="韓国語の経験"]:checked')) { showMsg('韓国語の経験を選択してください。'); return; }
+    if (!document.getElementById('f-agree').checked) { showMsg('個人情報の取り扱いへの同意にチェックを入れてください。'); return; }
+
+    var data = { _subject: '【町田校LP】無料体験レッスンのお申し込み', _template: 'table', _captcha: 'false', _replyto: em.value.trim() };
+    var fd = new FormData(form);
+    fd.forEach(function (v, k) { if (k !== '_honey' && String(v).trim()) data[k] = String(v).trim(); });
+    if (fd.get('_honey')) return; // bot
+
+    btn.disabled = true; btn.textContent = '送信中…';
+    fetch('https://formsubmit.co/ajax/' + TO, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(data)
+    }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || j.success === 'false') throw new Error('send'); }); })
+      .then(function () {
+        form.hidden = true;
+        document.querySelector('.form-sub').hidden = true;
+        document.getElementById('formDone').hidden = false;
+        document.getElementById('form').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      })
+      .catch(function () {
+        var body = Object.keys(data).filter(function (k) { return k.charAt(0) !== '_'; }).map(function (k) { return k + '：' + data[k]; }).join('\n');
+        var href = 'mailto:' + TO + '?subject=' + encodeURIComponent('無料体験レッスンのお申し込み') + '&body=' + encodeURIComponent(body);
+        showMsg('送信できませんでした。お手数ですが、<a href="' + href + '">こちらからメールで送信</a>してください。');
+        btn.disabled = false; btn.textContent = 'この内容で送信する';
+      });
+  });
+
+  // ---- teacher lightbox ----
+  var lb = document.getElementById('lb'), lbimg = document.getElementById('lbimg');
+  document.querySelectorAll('.tcard').forEach(function (c) {
+    c.addEventListener('click', function () {
+      lbimg.src = c.dataset.src; lbimg.alt = c.dataset.alt;
+      if (lb.showModal) lb.showModal(); else window.open(c.dataset.src, '_blank');
+    });
+  });
+  document.getElementById('lbx').addEventListener('click', function () { lb.close(); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) lb.close(); });
+
+  // ---- hangul builder ----
+  // 初声index / 中声index はUnicodeハングル音節の計算用
+  var C = [
+    { ch: 'ㄱ', i: 0,  k: ['カ', 'キ', 'ク', 'コ'] },
+    { ch: 'ㄴ', i: 2,  k: ['ナ', 'ニ', 'ヌ', 'ノ'] },
+    { ch: 'ㄷ', i: 3,  k: ['タ', 'ティ', 'トゥ', 'ト'] },
+    { ch: 'ㅁ', i: 6,  k: ['マ', 'ミ', 'ム', 'モ'] },
+    { ch: 'ㅂ', i: 7,  k: ['パ', 'ピ', 'プ', 'ポ'] },
+    { ch: 'ㅅ', i: 9,  k: ['サ', 'シ', 'ス', 'ソ'] },
+    { ch: 'ㅇ', i: 11, k: ['ア', 'イ', 'ウ', 'オ'] },
+    { ch: 'ㅎ', i: 18, k: ['ハ', 'ヒ', 'フ', 'ホ'] }
+  ];
+  var V = [
+    { ch: 'ㅏ', i: 0,  n: 0 },
+    { ch: 'ㅣ', i: 20, n: 1 },
+    { ch: 'ㅜ', i: 13, n: 2 },
+    { ch: 'ㅗ', i: 8,  n: 3 }
+  ];
+  var ci = 0, vi = 0;
+  var cons = document.getElementById('cons'), vows = document.getElementById('vows');
+  var big = document.getElementById('bigCh'), read = document.getElementById('readCh');
+
+  function mk(list, wrap, onPick) {
+    list.forEach(function (o, idx) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'key'; b.textContent = o.ch;
+      b.setAttribute('aria-pressed', idx === 0 ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        wrap.querySelectorAll('.key').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
+        b.setAttribute('aria-pressed', 'true');
+        onPick(idx);
+      });
+      wrap.appendChild(b);
+    });
+  }
+  function render() {
+    var code = 0xAC00 + (C[ci].i * 21 + V[vi].i) * 28;
+    big.textContent = String.fromCharCode(code);
+    read.textContent = C[ci].k[V[vi].n];
+    big.classList.remove('pop'); void big.offsetWidth; big.classList.add('pop');
+  }
+  mk(C, cons, function (i) { ci = i; render(); });
+  mk(V, vows, function (i) { vi = i; render(); });
+  render();
+})();
+</script>
+</body>
+</html>
